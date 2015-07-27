@@ -1,0 +1,16 @@
+---
+author: fangrenbin
+comments: true
+date: 2012-07-06 10:31:45+00:00
+layout: post
+slug: '%e5%b0%86string%e8%bd%ac%e6%8d%a2%e6%88%90long'
+title: 将String转换成long
+wordpress_id: 371
+categories:
+- java-web小问题解决
+---
+
+ChannelUserEvolutionVo channelUserEvolutionStatistics = new ChannelUserEvolutionVo();
+                    String dayAndChannel = result.getString("_id");
+                    String[] dayAndChannelsplit = dayAndChannel.split(":");
+                    channelUserEvolutionStatistics.setDay((long)(Double.parseDouble(dayAndChannelsplit[0])));

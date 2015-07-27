@@ -1,0 +1,17 @@
+---
+author: fangrenbin
+comments: true
+date: 2012-08-22 09:37:13+00:00
+layout: post
+slug: '%e3%80%90%e5%be%85%e6%95%b4%e7%90%86%e3%80%91%e8%8e%b7%e5%8f%96%e6%96%87%e4%bb%b6%e6%89%a9%e5%b1%95%e5%90%8d-and-java-uuid'
+title: 【待整理】获取文件扩展名 AND JAVA UUID
+wordpress_id: 379
+categories:
+- Java
+---
+
+[http://blog.csdn.net/redoffice/article/details/6652731](http://blog.csdn.net/redoffice/article/details/6652731)
+
+ 
+
+[http://hbiao68.iteye.com/blog/1493759](http://hbiao68.iteye.com/blog/1493759)

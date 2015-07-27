@@ -1,0 +1,25 @@
+---
+author: fangrenbin
+comments: true
+date: 2012-10-10 09:57:34+00:00
+layout: post
+slug: xml%e7%89%b9%e6%ae%8a%e5%ad%97%e7%ac%a6
+title: xml特殊字符
+wordpress_id: 382
+categories:
+- Java
+---
+
+今天写SQL语句里面有“<”符号，一直报错。
+
+在网上查了一下原来需要写成转义字符：
+
+> 开始标记 &gt;
+
+< 结束标记 &lt;
+
+" 引号 &quot;
+
+' 撇号 &apos;
+
+& 和号 &amp;

@@ -1,0 +1,22 @@
+---
+author: fangrenbin
+comments: true
+date: 2012-07-09 07:03:17+00:00
+layout: post
+slug: '%e5%ad%97%e7%ac%a6%e4%b8%b2%e6%af%94%e8%be%83'
+title: 字符串比较
+wordpress_id: 373
+categories:
+- Java
+- java-web小问题解决
+---
+
+字符串比较用equals
+
+ 
+
+list.get(i).getChannel().equals("0101")
+
+ 
+
+“==”用于比较两个对象。

@@ -1,0 +1,30 @@
+---
+author: fangrenbin
+comments: true
+date: 2013-09-16 09:11:13+00:00
+layout: post
+slug: mysql%e7%9b%ae%e5%bd%95%e6%8c%82%e8%bd%bd%e5%88%b0%e5%8f%a6%e4%b8%80%e5%9d%97%e7%a1%ac%e7%9b%98%e6%97%a0%e6%b3%95%e5%90%af%e5%8a%a8
+title: mysql目录挂载到另一块硬盘无法启动
+wordpress_id: 487
+categories:
+- wordpress
+tag:
+- mysql
+---
+
+mysql目录在/var/lib/mysql，数据库一直增长，硬盘明显放不进去了。
+[![](http://frb.name/wp-content/uploads/2013/09/QQ截图20130916170825-300x118.png)](http://frb.name/wp-content/uploads/2013/09/QQ截图20130916170825.png)
+参考：挂载硬盘方法[http://www.linuxhomenetworking.com
+最后搬过去数据，无法启动，日志上记录：
+Can't change dir to '/var/lib/mysql/' (Errcode: 13)
+解决方法：
+
+    
+    
+    # chcon  -R -h -t httpd_sys_content_t  /www/web/
+    如果是mysql，方法为：
+    # chcon -R -t mysqld_db_t /mysql
+    
+
+
+参考地址：[http://bbs.csdn.net/topics/330244366](http://bbs.csdn.net/topics/330244366)

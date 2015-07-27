@@ -1,0 +1,15 @@
+---
+author: fangrenbin
+comments: true
+date: 2013-06-03 07:28:26+00:00
+layout: post
+slug: 201363%e2%80%93201367-%e5%ad%a6%e5%88%b0%e4%bb%80%e4%b9%88
+title: 2013/6/3–2013/6/7 学到什么
+wordpress_id: 468
+categories:
+- wordpress
+---
+
+2013/6/3：
+1、extjs4 用户登陆表单中输完密码按回车提交表单。
+需要在passwordr的field中listeners监听specilkey事件。

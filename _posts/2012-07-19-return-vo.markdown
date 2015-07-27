@@ -1,0 +1,22 @@
+---
+author: fangrenbin
+comments: true
+date: 2012-07-19 07:16:55+00:00
+layout: post
+slug: return-vo
+title: return vo
+wordpress_id: 374
+categories:
+- wordpress
+---
+
+// Map<String, Object> organizationMap =     
+// getJdbcTemplate().queryForMap(sql, new Object[] { id });      
+// OrganizationVo organization = new OrganizationVo();      
+// organization.setId((Long) organizationMap.get("id"));      
+// organization.setName((String) organizationMap.get("name"));      
+// organization.setCombinedPhone((String)      
+// organizationMap.get("combinedPhone"));      
+// organization.setEnabled((Boolean) organizationMap.get("enabled"));      
+// organization.setAddTime((Long) organizationMap.get("add_time"));      
+// organization.setUpdateTime((Long) organizationMap.get("updateTime"));    

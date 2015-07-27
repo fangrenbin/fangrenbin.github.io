@@ -1,0 +1,13 @@
+---
+author: fangrenbin
+comments: true
+date: 2014-06-27 16:44:53+00:00
+layout: post
+slug: mac%e5%ae%89%e8%a3%85nodejs
+title: Mac安装Nodejs
+wordpress_id: 617
+categories:
+- wordpress
+---
+
+http://coolestguidesontheplanet.com/installing-node-js-osx-10-9-mavericks/

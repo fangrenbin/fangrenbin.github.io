@@ -1,0 +1,20 @@
+---
+author: fangrenbin
+comments: true
+date: 2014-02-13 09:07:38+00:00
+layout: post
+slug: '%e7%88%ac%e8%99%ab%e6%8a%80%e6%9c%af%e6%95%b4%e7%90%86'
+title: 爬虫技术整理
+wordpress_id: 589
+categories:
+- wordpress
+---
+
+1、为集合Queue类实现线程安全方法
+2、线程池ExecutorPool的使用方法
+3、线程的使用Thread.run()这些方法
+4、泛型类的设计
+5、解析HTML数据，使用的htmlparser包
+6、正则表达式的使用
+7、Spring定时任务
+8、MongoDB安装，常用命令，以及Spring Mongo Template配置以及调用

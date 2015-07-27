@@ -1,0 +1,42 @@
+---
+author: fangrenbin
+comments: true
+date: 2012-10-08 05:35:34+00:00
+layout: post
+slug: '%e5%88%a0%e9%99%a4%e6%96%87%e4%bb%b6%e5%a4%b9%ef%bc%8c%e5%85%88%e6%b8%85%e7%a9%ba%e6%96%87%e4%bb%b6%e5%a4%b9%e4%b8%8b%e9%9d%a2%e7%9a%84%e6%96%87%e4%bb%b6%e4%bb%a5%e5%8f%8a%e6%96%87%e4%bb%b6%e5%a4%b9'
+title: 删除文件夹，先清空文件夹下面的文件以及文件夹
+wordpress_id: 380
+categories:
+- Java
+---
+
+/**     
+* 删除文件      
+* <p>      
+* Author renbin.fang, 2012-9-27      
+*       
+* @param file      
+* @return true or false      
+*/      
+private boolean deleteFile(File file) {      
+if (file.exists()) {      
+if (file.isFile()) {      
+file.delete();      
+}      
+else if (file.isDirectory()) {      
+File files[] = file.listFiles();      
+for (int i = 0; i < files.length; i++) {      
+this.deleteFile(files[i]);      
+}      
+}      
+file.delete();      
+}      
+else {      
+System.out.println("所删除的文件不存在！" + '\n');      
+return false;      
+}
+
+ 
+
+return true;     
+}

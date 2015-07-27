@@ -1,0 +1,44 @@
+---
+author: fangrenbin
+comments: true
+date: 2014-04-17 02:52:09+00:00
+layout: post
+slug: '%e9%9d%a2%e8%af%95%e9%81%87%e5%88%b0%e7%9a%84%e7%9f%a5%e8%af%86%e6%80%bb%e7%bb%93%e6%9c%89%e4%ba%9b%e9%9c%80%e8%a6%81%e5%bc%ba%e5%8c%96'
+title: 面试遇到的知识总结(有些需要强化)
+wordpress_id: 582
+categories:
+- wordpress
+---
+
+目前面试的时候大概会遇到的问题：
+WEB前端：
+1、一般会手写一些HTML
+2、jsp常用的对象
+3、JQuery/ExtJs
+4、servlet的原理
+5、DIV+CSS
+6、JS一些操作特效，比如：如何隐藏DIV
+
+JAVA基础知识：
+1、常用的集合类有哪些List/Map，区别是什么。
+2、线程方面的东西，同步。比如如何实现Map同步。
+3、单例模式(自己实现一个单例模式)
+4、JAVA垃圾回收机制
+5、考虑并发问题
+
+框架：
+1、理解struts2框架原理，还有配置文件的编写
+2、spring的注入原理，如何注入的对象
+3、spring MVC框架
+4、Hibernate和ibats，Hibernate如何实现表对应的关系
+
+数据库：
+1、SQL语句的优化
+2、常用到的一些SQL语句，把一些常用的SQL语句给背一背，手写一写。
+3、事务的管理
+4、MongoDB有什么好处
+
+构建工具：
+1、maven的pom.xml文件里面包括哪些内容
+Linux服务器:
+1、Tomcat服务器的配置文件，改端口什么的。

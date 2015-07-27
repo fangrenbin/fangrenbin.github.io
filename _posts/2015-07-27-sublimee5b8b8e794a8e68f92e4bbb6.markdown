@@ -1,0 +1,14 @@
+---
+author: fangrenbin
+comments: false
+date: 2015-07-27 08:43:01+00:00
+layout: post
+slug: sublime%e5%b8%b8%e7%94%a8%e6%8f%92%e4%bb%b6
+title: Sublime常用插件
+wordpress_id: 678
+categories:
+- wordpress
+---
+
+1. 自动补全部径：autofilename
+2. 自动对齐代码 ：Alignment

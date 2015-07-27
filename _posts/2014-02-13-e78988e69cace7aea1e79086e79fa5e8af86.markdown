@@ -1,0 +1,14 @@
+---
+author: fangrenbin
+comments: false
+date: 2014-02-13 09:20:10+00:00
+layout: post
+slug: '%e7%89%88%e6%9c%ac%e7%ae%a1%e7%90%86%e7%9f%a5%e8%af%86'
+title: 版本管理知识
+wordpress_id: 594
+categories:
+- wordpress
+---
+
+1、版本号的命名
+2、每个版本的分支什么的搞清楚

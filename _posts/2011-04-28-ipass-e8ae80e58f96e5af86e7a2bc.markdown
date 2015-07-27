@@ -1,0 +1,61 @@
+---
+author: fangrenbin
+comments: true
+date: 2011-04-28 06:36:20+00:00
+layout: post
+slug: ipass-%e8%ae%80%e5%8f%96%e5%af%86%e7%a2%bc
+title: ipass 讀取密碼
+wordpress_id: 303
+categories:
+- 日常應用
+---
+
+聯通IPASS讀取密碼的方法：
+
+ 
+
+前提：在讀取密碼前需要將IPASS插入電腦，並且撥號，成功連接互聯網。
+
+ 
+
+使用軟體：WinHex
+
+ 
+
+步驟一：
+
+ 
+
+[![ipass1](http://frb.name/wp-content/uploads/2011/04/ipass1_thumb.png)](http://frb.name/wp-content/uploads/2011/04/ipass1.png)
+
+ 
+
+打開后在里面查找IPASS的進程。
+
+ 
+
+步驟二：搜索，一般帳號前幾位數字是e2009，一般一搜索就會出現。
+
+ 
+
+這就是帳號拉
+
+ 
+
+[![未命名](http://frb.name/wp-content/uploads/2011/04/thumb.jpg)](http://frb.name/wp-content/uploads/2011/04/d33f4b7e512d.jpg)
+
+ 
+
+密碼就在附近了，上面或下麵，仔細查找就會發現哦。
+
+     
+
+這就是密碼拉：
+
+ 
+
+[![1111](http://frb.name/wp-content/uploads/2011/04/1111_thumb.jpg)](http://frb.name/wp-content/uploads/2011/04/1111.jpg)
+
+ 
+
+注：這個方法是我的錢同學告訴我的，非常感謝錢同學。

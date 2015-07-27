@@ -1,0 +1,45 @@
+---
+author: fangrenbin
+comments: true
+date: 2013-04-22 04:02:41+00:00
+layout: post
+slug: sql%e5%ad%97%e7%ac%a6%e4%b8%b2%e6%90%9c%e7%b4%a2%e6%9b%bf%e6%8d%a2
+title: sql字符串搜索替换
+wordpress_id: 446
+categories:
+- sql
+---
+
+参考：[http://dev.mysql.com/doc/refman/5.0/en/string-functions.html#function_replace](http://dev.mysql.com/doc/refman/5.0/en/string-functions.html#function_replace)
+
+ 
+
+使用示例：
+
+ 
+
+update TABLE_NAME set FIELD_NAME = replace(FIELD_NAME, ‘find this string’, ‘replace found string with this string’);
+
+ 
+
+TABLE_NAME:表名
+
+ 
+
+FIELD_NAME：字段
+
+ 
+
+比如url=http://www.baidu.com/?search=abc
+
+ 
+
+UPDATE photo SET 
+
+ 
+
+url=REPLACE(url, ‘baidu.com’, ‘google’)
+
+ 
+
+执行完：url=http://www.google.com/?search=abc

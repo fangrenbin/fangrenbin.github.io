@@ -1,0 +1,25 @@
+---
+author: fangrenbin
+comments: true
+date: 2010-07-28 08:30:58+00:00
+layout: post
+slug: '%e5%88%97%e7%9b%ae%e5%bd%95'
+title: 列目录
+wordpress_id: 91
+categories:
+- shell
+---
+
+
+    #! /bin/sh
+    #先列HOME目录，然后输入需要列的目录
+    echo 当前目录
+    pwd
+    echo 当前目录的文件
+    ls
+    echo 输入你想查看的目录：
+    read dir
+    cd $dir
+    echo 查看的目录为${dir}
+    ls -l
+    echo 谢谢使用

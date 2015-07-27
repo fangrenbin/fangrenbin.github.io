@@ -1,0 +1,35 @@
+---
+author: fangrenbin
+comments: true
+date: 2013-05-27 09:09:08+00:00
+layout: post
+slug: '%e4%b8%8d%e6%98%8e%e7%99%bd%ef%bc%9a%e6%97%a0%e6%b3%95%e5%90%af%e5%8a%a8httpd%e6%9c%8d%e5%8a%a1'
+title: 不明白：无法启动httpd服务
+wordpress_id: 466
+categories:
+- unknow
+- wordpress
+---
+
+为何下面这种方法不能启动：
+
+    
+    
+    [admin@knet-beta-server-20 conf]$ /sbin/service httpd start
+    Starting httpd: httpd: Syntax error on line 1068 of /etc/httpd/conf/httpd.conf: Syntax error on line 2 of /etc/httpd/conf/mod_jk.conf: Cannot load /usr/lib64/httpd/modules/mod_jk.so into server: /usr/lib64/httpd/modules/mod_jk.so: cannot open shared object file: Permission denied
+                                                               [FAILED]
+    [admin@knet-beta-server-20 conf]$ sudo /sbin/service httpd start
+    [sudo] password for admin:
+    Starting httpd: httpd: Syntax error on line 1068 of /etc/httpd/conf/httpd.conf: Syntax error on line 2 of /etc/httpd/conf/mod_jk.conf: Cannot load /usr/lib64/httpd/modules/mod_jk.so into server: /usr/lib64/httpd/modules/mod_jk.so: cannot open shared object file: Permission denied
+                                                               [FAILED]
+    
+
+
+为何下面这种方法可以启动？
+
+    
+    
+    [admin@knet-beta-server-20 conf]$
+    sudo /usr/sbin/httpd -k stop
+    sudo /usr/sbin/httpd -k start
+    

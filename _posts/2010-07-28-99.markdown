@@ -1,0 +1,27 @@
+---
+author: fangrenbin
+comments: true
+date: 2010-07-28 07:50:11+00:00
+layout: post
+slug: '99'
+title: 99乘法表
+wordpress_id: 88
+categories:
+- c-programming
+---
+
+
+    #include"stdio.h"
+    void main()
+    {
+      int i,j;
+      for(i=1;i<=9;i++)
+      {
+        for(j=1;j<=i;j++) 
+        printf("%d*%d=%-3d",i,j,i*j);
+        printf("\n");
+      }
+    }
+
+
+

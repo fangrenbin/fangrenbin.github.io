@@ -1,0 +1,13 @@
+---
+author: fangrenbin
+comments: true
+date: 2012-08-21 03:14:23+00:00
+layout: post
+slug: '%e5%88%a4%e6%96%ad%e5%ad%97%e7%ac%a6%e4%b8%b2%e6%98%af%e5%90%a6%e4%b8%ba%e7%a9%ba'
+title: 判断字符串是否为空
+wordpress_id: 378
+categories:
+- wordpress
+---
+
+StringUtils.isNotEmpty(query.getViewPhoto().getIdentity())

@@ -1,0 +1,13 @@
+---
+author: fangrenbin
+comments: true
+date: 2012-04-18 04:39:41+00:00
+layout: post
+slug: servlet
+title: servlet
+wordpress_id: 335
+categories:
+- Java
+---
+
+[![servlet-basic-07](http://frb.name/wp-content/uploads/2012/04/servlet-basic-07_thumb.png)](http://frb.name/wp-content/uploads/2012/04/servlet-basic-07.png)

@@ -1,0 +1,14 @@
+---
+author: fangrenbin
+comments: true
+date: 2010-12-01 14:06:10+00:00
+layout: post
+slug: 9780%e4%bd%bf%e7%94%a8%e9%97%ae%e9%a2%98%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88
+title: 9780使用问题解决方案
+wordpress_id: 230
+categories:
+- wordpress
+---
+
+关闭屏幕拔号：
+显示->主屏幕首选项->键入以启动(这个由通用搜索改为应用程序快捷方式)

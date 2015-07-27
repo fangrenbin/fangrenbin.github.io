@@ -1,0 +1,13 @@
+---
+author: fangrenbin
+comments: true
+date: 2013-09-21 11:12:48+00:00
+layout: post
+slug: struts2%e9%87%8d%e5%ae%9a%e5%90%91
+title: struts2重定向
+wordpress_id: 559
+categories:
+- wordpress
+---
+
+退出用户登陆以后，地址栏还是退出的action（logout.do），如何去掉呢。

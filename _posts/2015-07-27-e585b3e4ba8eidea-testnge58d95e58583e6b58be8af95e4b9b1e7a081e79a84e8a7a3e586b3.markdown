@@ -1,0 +1,14 @@
+---
+author: fangrenbin
+comments: false
+date: 2015-07-27 08:41:50+00:00
+layout: post
+slug: '%e5%85%b3%e4%ba%8eidea-testng%e5%8d%95%e5%85%83%e6%b5%8b%e8%af%95%e4%b9%b1%e7%a0%81%e7%9a%84%e8%a7%a3%e5%86%b3'
+title: 关于Idea testng单元测试乱码的解决
+wordpress_id: 680
+categories:
+- wordpress
+---
+
+关于Idea testng单元测试乱码的解决
+http://stamen.iteye.com/blog/1897286
