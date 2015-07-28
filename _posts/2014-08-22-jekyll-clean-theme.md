@@ -1,50 +1,15 @@
-# Jekyll-Bootstrap
-
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
-
-## Usage
-
-For all usage and documentation please see: <http://jekyllbootstrap.com>
-
-## Version
-
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
-
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
-
-## Contributing
-
-
-To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-This is very important as it allows me to accept your pull request without having to publish a public version release.
-
-Small, atomic Features, bugs, etc.
-Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
-Please rebase as often as possible when working.
-Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
-
-For Big Features or major API extensions/edits:
-This is the one case where I'll accept pull-requests based off the master branch.
-This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-Translation : it might take a bit longer so please be patient! (but sincerely thank you).
-
-**Jekyll-Bootstrap Documentation Website.**
-
-The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
-
-
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
-=======
-Jekyll Clean
-============
+---
+layout: post
+title: "Jekyll Clean Theme"
+date: 2014-08-22 16:25:06 -0700
+comments: false
+---
 
 * Get it from [github](https://github.com/scotte/jekyll-clean).
 * See the [live demo](https://scotte.github.io/jekyll-clean).
 * See it [in action on my own blog](https://scotte.github.io).
+
+Welcome to the sample post for the Jekyll Clean theme.
 
 A simple and clean Jekyll theme using [bootstrap](http://getbootstrap.com)
 (not to be confused with jekyll-bootstrap) that's easy to modify and very
@@ -86,7 +51,6 @@ You can setup an upstream tracking repository like so:
 ```
 $ git remote add upstream git@github.com:scotte/jekyll-clean.git
 ```
-
 And now when you wish to merge your own branch onto the latest version of the
 theme, simply do:
 
@@ -105,7 +69,7 @@ License
 =======
 
 The content of this theme is distributed and licensed under a
-![License Badge](/images/cc_by_88x31.png)
+![License Badge]({{ site.baseurl}}/images/cc_by_88x31.png)
 [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
 
     This license lets others distribute, remix, tweak, and build upon your work,
