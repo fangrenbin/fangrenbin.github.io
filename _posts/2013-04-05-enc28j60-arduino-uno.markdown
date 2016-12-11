@@ -1,5 +1,5 @@
 ---
-author: fangrenbin
+#author: fangrenbin
 comments: true
 date: 2013-04-05 06:37:38+00:00
 layout: post
